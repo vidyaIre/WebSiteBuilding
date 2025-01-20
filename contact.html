@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Organization Contact</title>
+    <!-- Navavasandham club for oldage persons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="https://kit.fontawesome.com/8fb1971e4f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info justify-content-center p-5 fs-2 fw-bold gx-5">
+            <div class="container-fluid ">
+                <a class="navbar-brand fs-1" href="#">Navavasandham club</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ms-5">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link" href="./event.html">Event</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link " href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+     <!-- Page Header -->
+     <header class="bg-secondary text-white text-center py-4">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach out to us using the form below.</p>
+    </header>
+
+    <!-- Contact Form -->
+    <div class="container my-5">
+        <form>
+            <div class="mb-3 fw-bold ">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3 fw-bold">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3 fw-bold">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Type your message here" required></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#confirmationModal">
+                Submit
+            </button>
+        </form>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Thank You!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Your message has been received. We'll get back to you shortly.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer content -->
+    <section>
+        <footer class="bg-info text-dark py-4 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p> Navavasandham club typically refers to a social Organization or communmity group
+                            desighned
+                            for older adults.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h5>Follow Us</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-dark me-3"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contact</h5>
+                        <p>Email: vidya.palliyalil@gmail.com</p>
+                        <p>Phone:8971420043</p>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <p class="mb-0">© 2024 Navavasandham club. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
